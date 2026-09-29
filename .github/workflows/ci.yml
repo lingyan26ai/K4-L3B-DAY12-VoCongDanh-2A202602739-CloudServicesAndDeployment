@@ -49,7 +49,9 @@ jobs:
   deploy:
     name: Deploy to Railway
     needs: [test, build]
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: >-
+      github.ref == 'refs/heads/main' && github.event_name == 'push' &&
+      vars.RAILWAY_DEPLOY_ENABLED == 'true'
     runs-on: ubuntu-latest
     env:
       RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
