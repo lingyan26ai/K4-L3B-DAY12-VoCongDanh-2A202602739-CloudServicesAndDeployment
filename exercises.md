@@ -3,7 +3,6 @@
 > **Bài làm cá nhân.** Trả lời bằng lời của chính bạn, dựa trên những gì bạn
 > quan sát được khi chạy code — không sao chép đáp án của người khác.
 >
-> Cách trả lời: thay dòng `> *Câu trả lời của bạn*` bằng câu trả lời.
 > `grade.py` đếm số câu đã trả lời (15 điểm cho 10 câu).
 >
 > Họ và tên: Vo Cong Danh  Mã học viên: 2A202602739
@@ -54,8 +53,8 @@ docker images | grep agent
 
 | Bản | Dung lượng |
 |-----|-----------|
-| 1 stage (bản đầu) | ... MB |
-| Multi-stage | ... MB |
+| 1 stage (bản đầu) | Không có số đo được lưu lại |
+| Multi-stage | khoảng 271 MB |
 
 Giải thích: phần dung lượng chênh lệch đó là những gì?
 
